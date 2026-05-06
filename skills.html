@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Skills — Nirob Halder</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- TOPBAR -->
+  <header class="topbar">
+    <button class="menu-btn" onclick="openMenu()" aria-label="Open Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <a href="index.html" class="logo">NIROB</a>
+    <button class="theme-btn" id="themeBtn" onclick="toggleTheme()">☀ Light</button>
+  </header>
+
+  <!-- OVERLAY -->
+  <div class="overlay" id="overlay" onclick="closeMenu()"></div>
+
+  <!-- SIDEBAR -->
+  <nav class="sidebar" id="sidebar">
+    <button class="sidebar-close" onclick="closeMenu()">✕</button>
+    <div class="sidebar-brand">NIROB HALDER</div>
+    <ul class="nav-links">
+      <li><a href="index.html"><span class="nav-icon">🏠</span> Home</a></li>
+      <li><a href="skills.html"><span class="nav-icon">⚙️</span> Skills</a></li>
+      <li><a href="projects.html"><span class="nav-icon">🔧</span> Projects</a></li>
+      <li><a href="connect.html"><span class="nav-icon">📡</span> Connect</a></li>
+    </ul>
+    <div class="sidebar-footer">© 2025 Nirob Halder</div>
+  </nav>
+
+  <!-- SKILLS PAGE -->
+  <main class="page">
+    <div class="section">
+      <div class="section-header fade-up delay-1">
+        <p class="section-label">What I Know</p>
+        <h2 class="section-title">My Skills &<br/>Expertise</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <!-- Core Technical Skills -->
+      <div class="skills-grid">
+
+        <div class="skill-card fade-up delay-1">
+          <div class="skill-icon">🔩</div>
+          <div class="skill-name">Lathe Machine Operation</div>
+          <div class="skill-desc">Turning, facing, threading, and knurling operations on center lathe. Skilled in setting up workpieces and selecting cutting tools.</div>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar" data-width="85%"></div>
+          </div>
+        </div>
+
+        <div class="skill-card fade-up delay-2">
+          <div class="skill-icon">📐</div>
+          <div class="skill-name">Engineering Drawing</div>
+          <div class="skill-desc">Technical drawing, blueprint reading, orthographic & isometric projections, and dimensioning to engineering standards.</div>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar" data-width="80%"></div>
+          </div>
+        </div>
+
+        <div class="skill-card fade-up delay-3">
+          <div class="skill-icon">🖥️</div>
+          <div class="skill-name">AutoCAD</div>
+          <div class="skill-desc">2D drafting, design layout creation, and annotation. Using AutoCAD for mechanical part design and assembly drawings.</div>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar" data-width="70%"></div>
+          </div>
+        </div>
+
+        <div class="skill-card fade-up delay-1">
+          <div class="skill-icon">🔥</div>
+          <div class="skill-name">Welding</div>
+          <div class="skill-desc">Arc welding (SMAW), MIG welding basics, joint preparation, and safety procedures in fabrication work.</div>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar" data-width="75%"></div>
+          </div>
+        </div>
+
+        <div class="skill-card fade-up delay-2">
+          <div class="skill-icon">📏</div>
+          <div class="skill-name">Precision Measurement</div>
+          <div class="skill-desc">Using Vernier caliper, micrometer, dial gauge, and other precision instruments for accurate measurements.</div>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar" data-width="88%"></div>
+          </div>
+        </div>
+
+        <div class="skill-card fade-up delay-3">
+          <div class="skill-icon">⚙️</div>
+          <div class="skill-name">Machine Maintenance</div>
+          <div class="skill-desc">Preventive maintenance, lubrication schedules, fault diagnosis, and basic repair of mechanical workshop machines.</div>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar" data-width="72%"></div>
+          </div>
+        </div>
+
+        <div class="skill-card fade-up delay-1">
+          <div class="skill-icon">🏭</div>
+          <div class="skill-name">Drilling Machine</div>
+          <div class="skill-desc">Pillar drill and bench drill operation, drill bit selection, speed calculation, and hole quality control.</div>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar" data-width="78%"></div>
+          </div>
+        </div>
+
+        <div class="skill-card fade-up delay-2">
+          <div class="skill-icon">🔑</div>
+          <div class="skill-name">Fitting & Assembly</div>
+          <div class="skill-desc">Bench work, filing, hacksaw, chipping, and assembly of mechanical components with proper tolerance fitting.</div>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar" data-width="82%"></div>
+          </div>
+        </div>
+
+        <div class="skill-card fade-up delay-3">
+          <div class="skill-icon">🌡️</div>
+          <div class="skill-name">Thermodynamics Basics</div>
+          <div class="skill-desc">Understanding heat transfer, thermodynamic cycles, and their application in engines and mechanical systems.</div>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar" data-width="65%"></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>Crafted with ❤️ by <span>Nirob Halder</span> · Faridpur Polytechnic Institute</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

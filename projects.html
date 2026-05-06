@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects — Nirob Halder</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- TOPBAR -->
+  <header class="topbar">
+    <button class="menu-btn" onclick="openMenu()" aria-label="Open Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <a href="index.html" class="logo">NIROB</a>
+    <button class="theme-btn" id="themeBtn" onclick="toggleTheme()">☀ Light</button>
+  </header>
+
+  <!-- OVERLAY -->
+  <div class="overlay" id="overlay" onclick="closeMenu()"></div>
+
+  <!-- SIDEBAR -->
+  <nav class="sidebar" id="sidebar">
+    <button class="sidebar-close" onclick="closeMenu()">✕</button>
+    <div class="sidebar-brand">NIROB HALDER</div>
+    <ul class="nav-links">
+      <li><a href="index.html"><span class="nav-icon">🏠</span> Home</a></li>
+      <li><a href="skills.html"><span class="nav-icon">⚙️</span> Skills</a></li>
+      <li><a href="projects.html"><span class="nav-icon">🔧</span> Projects</a></li>
+      <li><a href="connect.html"><span class="nav-icon">📡</span> Connect</a></li>
+    </ul>
+    <div class="sidebar-footer">© 2025 Nirob Halder</div>
+  </nav>
+
+  <!-- PROJECTS PAGE -->
+  <main class="page">
+    <div class="section">
+      <div class="section-header fade-up delay-1">
+        <p class="section-label">What I've Built</p>
+        <h2 class="section-title">My<br/>Projects</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="projects-grid">
+
+        <div class="project-card fade-up delay-1">
+          <div class="project-thumb">🔧</div>
+          <div class="project-body">
+            <span class="project-tag">Workshop</span>
+            <div class="project-title">Mini Hydraulic Jack Model</div>
+            <div class="project-desc">
+              Designed and fabricated a working scale model of a hydraulic jack demonstrating Pascal's law principles. Built using workshop machining and fitting techniques.
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card fade-up delay-2">
+          <div class="project-thumb">🏭</div>
+          <div class="project-body">
+            <span class="project-tag">Fabrication</span>
+            <div class="project-title">Hand-Operated Drilling Machine</div>
+            <div class="project-desc">
+              Constructed a portable hand-operated drilling unit from raw materials using lathe, welding, and assembly skills. Capable of drilling up to 10mm holes.
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card fade-up delay-3">
+          <div class="project-thumb">⚙️</div>
+          <div class="project-body">
+            <span class="project-tag">Design</span>
+            <div class="project-title">Belt Conveyor System Model</div>
+            <div class="project-desc">
+              Engineered a miniature belt conveyor system with a motor drive, tensioning system, and adjustable speed — demonstrating material handling concepts.
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card fade-up delay-1">
+          <div class="project-thumb">🔩</div>
+          <div class="project-body">
+            <span class="project-tag">Machining</span>
+            <div class="project-title">Precision Shaft on Lathe</div>
+            <div class="project-desc">
+              Turned a stepped shaft with multiple diameters to ±0.05mm tolerance using a centre lathe. Practice of facing, turning, and parting operations.
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card fade-up delay-2">
+          <div class="project-thumb">📐</div>
+          <div class="project-body">
+            <span class="project-tag">AutoCAD</span>
+            <div class="project-title">Mechanical Parts Drawing Set</div>
+            <div class="project-desc">
+              Created a complete set of 2D engineering drawings for common machine parts including gear, bearing housing, and bracket using AutoCAD.
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card fade-up delay-3">
+          <div class="project-thumb">🔥</div>
+          <div class="project-body">
+            <span class="project-tag">Welding</span>
+            <div class="project-title">Steel Frame Structure</div>
+            <div class="project-desc">
+              Fabricated a small load-bearing steel frame using arc welding. Included proper joint preparation, weld quality inspection, and load testing.
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>Crafted with ❤️ by <span>Nirob Halder</span> · Faridpur Polytechnic Institute</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
