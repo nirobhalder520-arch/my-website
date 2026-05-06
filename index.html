@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nirob Halder — Portfolio</title>
+  <meta name="description" content="Portfolio of Nirob Halder — Mechanical Engineering Student at Faridpur Polytechnic Institute" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- TOPBAR -->
+  <header class="topbar">
+    <button class="menu-btn" onclick="openMenu()" aria-label="Open Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <a href="index.html" class="logo">NIROB</a>
+    <button class="theme-btn" id="themeBtn" onclick="toggleTheme()">☀ Light</button>
+  </header>
+
+  <!-- OVERLAY -->
+  <div class="overlay" id="overlay" onclick="closeMenu()"></div>
+
+  <!-- SIDEBAR -->
+  <nav class="sidebar" id="sidebar">
+    <button class="sidebar-close" onclick="closeMenu()">✕</button>
+    <div class="sidebar-brand">NIROB HALDER</div>
+    <ul class="nav-links">
+      <li>
+        <a href="index.html">
+          <span class="nav-icon">🏠</span> Home
+        </a>
+      </li>
+      <li>
+        <a href="skills.html">
+          <span class="nav-icon">⚙️</span> Skills
+        </a>
+      </li>
+      <li>
+        <a href="projects.html">
+          <span class="nav-icon">🔧</span> Projects
+        </a>
+      </li>
+      <li>
+        <a href="connect.html">
+          <span class="nav-icon">📡</span> Connect
+        </a>
+      </li>
+    </ul>
+    <div class="sidebar-footer">© 2025 Nirob Halder</div>
+  </nav>
+
+  <!-- HOME PAGE -->
+  <main class="page">
+    <section class="home-hero">
+      <div class="hero-bg-text">ENGINEER</div>
+
+      <div class="hero-content">
+        <!-- Profile Image -->
+        <div class="hero-image-wrap fade-up delay-1">
+          <div class="profile-ring">
+            <div class="profile-img">
+              <img src="nirob.png" alt="Nirob Halder"
+                   onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+              <div class="profile-img-placeholder" style="display:none;">⚙️</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Text -->
+        <div class="hero-text">
+          <p class="hero-label fade-up delay-1">Mechanical Engineer</p>
+          <h1 class="hero-name fade-up delay-2">
+            NIROB<br /><span>HALDER</span>
+          </h1>
+          <p class="hero-title fade-up delay-3">Polytechnic Student · 3rd Semester</p>
+          <p class="hero-desc fade-up delay-3">
+            Passionate about mechanical engineering and precision technology.
+            Currently studying at <strong>Faridpur Polytechnic Institute</strong>,
+            Mechanical Department — building skills from the ground up,
+            one project at a time.
+          </p>
+          <div class="hero-badges fade-up delay-4">
+            <span class="badge">📍 Faridpur, BD</span>
+            <span class="badge">🏠 Dhaka</span>
+            <span class="badge">🎓 Diploma in Mech. Eng.</span>
+          </div>
+          <a href="connect.html" class="hero-cta fade-up delay-5">
+            Connect With Me →
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quick stats -->
+    <section style="padding: 0 24px 80px; max-width: 1000px; margin: 0 auto;">
+      <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;">
+        <div class="skill-card fade-up delay-1" style="text-align:center;">
+          <div style="font-size:2.5rem; margin-bottom:8px;">⚙️</div>
+          <div style="font-family:'Bebas Neue',cursive; font-size:2rem; color:var(--accent);">3rd</div>
+          <div style="font-size:0.85rem; color:var(--text2);">Semester</div>
+        </div>
+        <div class="skill-card fade-up delay-2" style="text-align:center;">
+          <div style="font-size:2.5rem; margin-bottom:8px;">🔩</div>
+          <div style="font-family:'Bebas Neue',cursive; font-size:2rem; color:var(--accent);">4+</div>
+          <div style="font-size:0.85rem; color:var(--text2);">Projects Built</div>
+        </div>
+        <div class="skill-card fade-up delay-3" style="text-align:center;">
+          <div style="font-size:2.5rem; margin-bottom:8px;">🏭</div>
+          <div style="font-family:'Bebas Neue',cursive; font-size:2rem; color:var(--accent);">FPI</div>
+          <div style="font-size:0.85rem; color:var(--text2);">Faridpur Polytechnic</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Crafted with ❤️ by <span>Nirob Halder</span> · Faridpur Polytechnic Institute</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
